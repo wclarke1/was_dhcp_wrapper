@@ -1,0 +1,14 @@
+{
+  "name": "puppet-was_dhcp_wrapper",
+  "version": "0.1.0",
+  "author": "puppet",
+  "summary": "Wrapper module for DHCP pools.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/wasbo/was_dns_wrapper.git",
+  "project_page": "https://github.com/wasbo/was_dns_wrapper",
+  "issues_url": "https://github.com/wasbo/was_dns_wrapper/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
