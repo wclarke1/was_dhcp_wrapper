@@ -42,7 +42,9 @@
 #
 # Copyright 2015 Your name here, unless otherwise noted.
 #
-class was_dhcp_wrapper {
-
-
+class was_dhcp_wrapper (
+  $pool_hash = {},
+) {
+  validate_hash($pool_hash)
+  create_resources('dhcp::pool', $pool_hash)
 }
